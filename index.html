@@ -1,0 +1,44 @@
+<html>
+<link
+href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" 
+rel="stylesheet"
+/>
+<style>
+    body {
+        margin: 0;
+        background-image: url(bg.png);
+    }
+</style>
+
+        <audio src="batchbug-sweet-dreams.mp3" id="bg audio" loop="loop" autoplay="autoplay"></audio>
+
+<div class="fixed text-white ml-2 mt-1 select-none text-2xl" style="font-family:Lucida Handwriting">
+    <span> Your Score: </span><span id="scoreElement">0</span>
+</div>
+<div class="fixed inset-0 flex items-center justify-center text-center"
+id="modalEl">
+    <div class="bg-white max-w p-6 rounded-full ">
+        <h1 class="text-5xl font-bold leading-non" 
+        id="bigScoreElement" style="font-family:Lucida Handwriting">0</h1>
+        <p class="text-mx text-gray-700 " style="font-family:Lucida Handwriting">Points</p>
+        <p style="font-family:Lucida Handwriting">Levels - Easy(0-5,000),  Hard(5,000-10,000),  
+            Expert(10,000-20,000),  Imposible(2,000,00)</p>
+        <div>
+        <button class="bg-blue-500 text-white w-full py-3 rounded-full" style="font-family:Lucida Handwriting" 
+        id="startGameButton"> ~~~~~~Start Game~~~~~~ </button>
+        </div>
+    </div>
+
+</div>
+
+<canvas></canvas>
+
+<script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" 
+    integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"
+></script>
+</script>
+<script src="sketch.js"></script>
+
+</html>
