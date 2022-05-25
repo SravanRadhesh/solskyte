@@ -1,5 +1,5 @@
 # solskyte link :
 
-https://whitehatofsra1.wixsite.com/solskyte
+https://solskyte.wixsite.com/solskyte
 
 Join Now
